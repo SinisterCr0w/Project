@@ -1,0 +1,100 @@
+*{
+    font-family: var(--playfair-font);
+}
+
+body{
+    background-color: black;
+}
+
+/* font */
+.playfair-font{
+    --playfair-font: 'Playfair Display SC', serif;
+}
+
+
+/* logo */
+.nav-logo{
+    align-content: center;
+}
+.logo{
+    width: auto;
+    height: 75px;
+}
+
+/* ­Navigation */
+
+.nav-container{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #5D737E;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.nav-selection-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;   
+}
+.nav-selection-list li{   
+    text-decoration: none;
+    margin: 15px;
+}
+.nav-selection-list li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-selection-list li a i:hover{
+    transition: all 0.85s;
+    color: #48F23B;
+    transform: scale(1.2,1.2);
+}
+.nav-selection-list .nav-logout:hover{
+    color: red;
+}
+.nav-login{
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin: 0;
+}
+.nav-signin{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;   
+}
+.nav-signin li{   
+    text-decoration: none;
+}
+.nav-signin li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-signin li a i:hover{
+    transition: all 0.85s;
+    color: #48F23B;
+    transform: scale(1.2,1.2);
+}
+.nav-signin .signin:hover{
+    color: #FFF275;
+}
+.nav-signin .login{
+    margin-right: 10px;
+}
